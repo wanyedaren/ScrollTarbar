@@ -11,8 +11,7 @@
 
 效果如下：
 
-/Users/kwls/Downloads/1459475276006.gif
-
+![image](https://github.com/wanyedaren/ScrollTarbar/blob/master/xiaoguo.gif)
 
 ---
 
