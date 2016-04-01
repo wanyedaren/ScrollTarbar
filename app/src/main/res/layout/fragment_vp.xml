@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <com.haha.scrollviewpager.LeftRightSwipyViewPager
+        android:id="@+id/vp_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ll_tabbar"
+        android:background="#fff"
+        >
+
+    </com.haha.scrollviewpager.LeftRightSwipyViewPager>
+
+    <LinearLayout android:id="@+id/ll_tabbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#dedede" />
+
+        <LinearLayout
+            android:id="@+id/ll_tabbar_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#f7f9f9"
+            android:paddingBottom="2dp"
+            android:paddingTop="2dp"
+            >
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
